@@ -1,0 +1,69 @@
+.home {
+    width: 100%;
+    margin-top: -400px;
+    z-index: 1;
+
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__block {
+        width: 624px;
+        height: 369px;
+        background: rgba(248, 242, 0, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        clip-path: polygon(0% 20%,
+                /* верхняя левая */
+                10% 0%,
+                /* верхняя левая */
+                100% 0%,
+                /* верхняя правая */
+                100% 0%,
+                /* верхняя правая */
+                100% 85%,
+                /* нижняя правая */
+                90% 100%,
+                /* нижняя правая */
+                0% 100%,
+                /* нижняя левая */
+                0% 100%
+                /* нижняя левая */
+            );
+
+
+
+
+        &-title {
+            color: rgba(0, 0, 0, 1);
+            font-family: "Archangelsk", sans-serif;
+            font-size: 62px;
+            font-weight: 400;
+            line-height: 74px;
+            letter-spacing: 0%;
+            margin-left: 70px;
+        }
+
+        &-btn {
+            width: 272px;
+            height: 78px;
+            padding: 19px 50px 19px 50px;
+            background: rgba(0, 0, 0, 1);
+            color: rgba(248, 242, 0, 1);
+            font-family: "Roboto", sans-serif;
+            font-size: 23px;
+            font-weight: 700;
+            letter-spacing: 0%;
+            margin-left: 70px;
+            margin-top: 25px;
+            cursor: pointer;
+
+            &:hover {
+                color: white;
+                background: rgb(48, 46, 46);
+            }
+        }
+    }
+}
