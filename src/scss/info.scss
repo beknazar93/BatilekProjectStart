@@ -24,5 +24,21 @@
       color: rgb(110, 204, 241); 
       }
     }
+
   }
+  &__image {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    &-foto {
+      width: 50%;
+    }
+    &-fotos {
+      width: 50%;
+    }
+
+  }
+ 
 }
+
