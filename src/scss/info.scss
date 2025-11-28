@@ -14,31 +14,35 @@
       text-align: left;
     }
     &-subtitle {
-      font-family: 'Roboto',sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 18px;
       font-weight: 400;
       line-height: 34px;
       letter-spacing: 0%;
       text-align: left;
-      span{
-      color: rgb(110, 204, 241); 
+      span {
+        color: rgb(110, 204, 241);
       }
     }
-
   }
   &__image {
     width: 100%;
     gap: 10px;
     display: flex;
-    flex-direction: row;
-    &-foto {
-      width: 50%;
-    }
-    &-fotos {
-      width: 50%;
-    }
 
+    margin-top: 70px;
+    &-1 {
+      /* Rectangle 62 */
+      width: 460px;
+      height: 196px;
+      &:last-child {
+        margin-top: 30px;
+      }
+    }
+    &-3 {
+      /* Rectangle 61 */
+      width: 788px;
+      height: 424px;
+    }
   }
- 
 }
-
