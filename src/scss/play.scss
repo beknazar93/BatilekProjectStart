@@ -25,5 +25,30 @@
         height: 132px;
       }
     }
+    &-subtitle {
+      font-family: "Roboto", sans-serif;
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 34px;
+      letter-spacing: 0%;
+      text-align: left;
+      margin-top: 30px;
+      span {
+        color: skyblue;
+      }
+    }
+  }
+    &__form {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        align-items: start;
+    input {
+      background: transparent;
+      
+    }
   }
 }
