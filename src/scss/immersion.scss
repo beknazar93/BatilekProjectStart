@@ -1,0 +1,15 @@
+.immersion {
+    /* Rectangle 593 */
+width: 100%;
+height: 676px;
+position: relative;
+    background: rgba(248, 242, 0, 1);
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 70px;
+        background: url('../img/immersion/22\ 2.png');
+                   
+    }
+}
