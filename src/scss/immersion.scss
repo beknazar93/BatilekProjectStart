@@ -45,6 +45,46 @@
             line-height: 34px;
             letter-spacing: 0%;
             text-align: left;
+            margin-bottom: 45px;
+        }
+
+        &-icon {
+
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+        }
+
+        &-btn {
+            margin-top: 35px;
+            background: rgba(0, 0, 0, 1);
+            /* Frame 5 */
+            width: 194px;
+            height: 59px;
+            /* Автолейаут */
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10;
+            padding: 15px 50px 15px 50px;
+            color: rgba(248, 242, 0, 1);
+
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0%;
+            text-align: left;
+            cursor: pointer;
+
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+
+
         }
     }
 }
